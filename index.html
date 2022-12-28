@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="jsindex.js" ></script>
+<link rel="stylesheet" href="csindex.css">
+</head>
+<body>
+
+<h2>Api Data </h2>
+<p>Type something in the input field to search the table for userid, id , title, body....</p>  
+<input id="myInput" type="text" placeholder="Search..">
+<br><br>
+
+<table>
+  <thead>
+  <tr>
+    <th>UserId</th>
+    <th>Id</th>
+    <th>title</th>
+    <th>Body</th>
+  </tr>
+  </thead>
+  <tbody id="myTable"></tbody>
+</table>
+  
+<p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+
+</body>
+</html>
